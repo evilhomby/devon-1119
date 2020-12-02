@@ -1,0 +1,140 @@
+/************************************************************
+* 覆蓋 Bootstrap 預設樣式
+************************************************************/
+:root {
+	--primary: #274768;
+}
+.bg-primary {
+	background-color: var(--primary) !important;
+}
+.bg-gradient-danger {
+	background: linear-gradient(90deg, #980000, #be0000);
+}
+.text-primary {
+	color: var(--primary) !important;
+}
+
+/************************************************************
+* 自定樣式
+************************************************************/
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h3 {
+	font-family: "Noto Sans Japanese";
+	font-weight: 900;
+	font-size: 2.25rem;
+	margin: 0;
+}
+p {
+	font-weight: normal;
+	margin-bottom: 2rem;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+a {
+	color: #999;
+	text-decoration: underline;
+}
+main section.alt {
+	background: #f0eeeb;
+}
+header .container, main .container {
+	position: relative;
+	max-width: 1010px;
+}
+#header-03 {
+	background: url(../images/bg-polygon-mobile.jpg) center top;
+	background-attachment: fixed;
+}
+#flow {
+	background: url(../images/flow-bg-pc.jpg) center top;
+	background-attachment: fixed;
+}
+#testimonial {
+	background: url(../images/bg-testimonial-pc.jpg) center top;
+	background-attachment: fixed;
+}
+#qa {
+	background: url(../images/bg-qa.png) no-repeat left bottom;
+}
+.question.card-title {
+	border-radius: 5px;
+	font-size: 1.25rem;
+	padding: 1rem 1.25rem;
+	padding-left: calc(2rem + 35px);
+	background: #d4e2e7 url(../images/bg-question.png) no-repeat 1rem center;
+}
+.answer.card-body {
+	padding: 1rem 1.25rem;
+	padding-left: calc(2rem + 35px);
+	background: url(../images/bg-answer.png) no-repeat 1rem 1rem;
+}
+footer {
+	padding: 2% 0;
+	background: #fff;
+	color: #999;
+	text-align: center;
+}
+footer p {
+	font-weight: 400;
+}
+footer p:last-child {
+	margin: 0px;
+}
+
+@media (max-width: 1700px) {
+	#qa {
+		padding-bottom: 215px !important;
+		background: url(../images/bg-qa.png) no-repeat center bottom;
+		background-size: auto 215px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	body {
+		font-size: 0.8125rem;
+	}
+	.card-body {
+		padding: 1.5rem;
+	}
+	.card-body p:last-child {
+		margin-bottom: 0;
+	}
+	p {
+		padding: 0;
+		margin-bottom: 1.6rem;
+	}
+	ul {
+		max-width: 650px;
+		font-weight: 900;
+		margin-bottom: 0;
+	}
+	.question.card-title, .answer.card-body {
+		padding-left: calc(2rem + 24px);
+		background-position: 1rem 1rem;
+		background-size: 24px;
+	}
+	#flow {
+		background: url(../images/flow-bg-mobile.jpg) center top;
+		background-attachment: fixed;
+	}
+	#bonus {
+		background: #fff;
+	}
+	#testimonial {
+		background: url(../images/bg-polygon-mobile.jpg) center top;
+		background-attachment: fixed;
+	}
+	footer {
+		padding-top: 7%;
+		padding-bottom: 7%;
+		font-size: 0.8125rem;
+	}
+}
