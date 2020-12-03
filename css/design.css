@@ -61,8 +61,17 @@ header .container, main .container {
 	background: url(../images/bg-testimonial-pc.jpg) center top;
 	background-attachment: fixed;
 }
+#testimonial h5 {
+	color: var(--primary);
+	font-size: 2rem;
+}
+.media-body p {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
 #qa {
 	background: url(../images/bg-qa.png) no-repeat left bottom;
+	font-weight: 700;
 }
 .question.card-title {
 	border-radius: 5px;
@@ -131,6 +140,12 @@ footer p:last-child {
 	#testimonial {
 		background: url(../images/bg-polygon-mobile.jpg) center top;
 		background-attachment: fixed;
+	}
+	#testimonial h5 {
+		font-size: 1.5rem;
+	}
+	.media-body p {
+		font-size: 1.25rem;
 	}
 	footer {
 		padding-top: 7%;
