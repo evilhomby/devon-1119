@@ -50,7 +50,7 @@ header .container, main .container {
 	max-width: 1010px;
 }
 #header-03 {
-	background: url(../images/bg-polygon-mobile.jpg) center top;
+	background: url(../images/bg-polygon-pc.jpg) center top;
 	background-attachment: fixed;
 }
 #flow {
@@ -131,6 +131,9 @@ footer p:last-child {
 		padding-left: calc(2rem + 24px);
 		background-position: 1rem 1rem;
 		background-size: 24px;
+	}
+	#header-03 {
+		background: background: url(../images/bg-polygon-mobile.jpg) center top;
 	}
 	#flow {
 		background: url(../images/flow-bg-mobile.jpg) center top;
