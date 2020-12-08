@@ -64,6 +64,8 @@ header .container, main .container {
 #testimonial h5 {
 	color: var(--primary);
 	font-size: 2rem;
+	line-height: 1.5;
+	font-weight: 900;
 }
 .media-body p {
 	font-weight: 700;
