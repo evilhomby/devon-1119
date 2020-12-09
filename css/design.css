@@ -138,11 +138,25 @@ footer p:last-child {
 		background-size: 24px;
 	}
 	#header-03 {
-		background: background: url(../images/bg-polygon-mobile.jpg) center top;
+		background: url(../images/bg-polygon-mobile.jpg) center top;
+		background-attachment: fixed;
 	}
 	#flow {
 		background: url(../images/flow-bg-mobile.jpg) center top;
 		background-attachment: fixed;
+	}
+	#flow {
+		background: transparent;
+	}
+	#flow::before {
+		content: '';
+		position: fixed;
+		background: url(../images/flow-bg-mobile.jpg) center top;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
 	}
 	#bonus {
 		background: #fff;
