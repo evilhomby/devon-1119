@@ -57,6 +57,11 @@ header .container, main .container {
 	background: url(../images/flow-bg-pc.jpg) center top;
 	background-attachment: fixed;
 }
+#bonus ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 #testimonial {
 	background: url(../images/bg-testimonial-pc.jpg) center top;
 	background-attachment: fixed;
@@ -67,13 +72,13 @@ header .container, main .container {
 	line-height: 1.5;
 	font-weight: 900;
 }
-.media-body p {
-	font-weight: 700;
-	font-size: 1.5rem;
-}
 #qa {
 	background: url(../images/bg-qa.png) no-repeat left bottom;
 	font-weight: 700;
+}
+#qa p {
+	font-weight: 700;
+	font-size: 1.5rem;
 }
 .question.card-title {
 	border-radius: 5px;
@@ -149,7 +154,7 @@ footer p:last-child {
 	#testimonial h5 {
 		font-size: 1.5rem;
 	}
-	.media-body p {
+	#qa p {
 		font-size: 1.25rem;
 	}
 	footer {

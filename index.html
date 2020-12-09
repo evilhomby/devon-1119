@@ -21,16 +21,28 @@
 	</header>
 	<main>
 		<section>
-			<div class="header">
-				<img src="images/header-01-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
+			<style>
+				#header-01 {
+					background: #254669 url(images/header-bg-01-pc.jpg) no-repeat center center;
+				}
+				#header-02 {
+					background: #254669;
+					position: relative;
+				}
+			</style>
+			<div id="header-01" class="header">
+				<img src="images/header-01-pc.png" class="img-fluid d-none d-md-block mx-auto">
 				<img src="images/header-01-mobile.jpg" class="img-fluid d-md-none">
 			</div>
-			<div class="header">
+
+			<div id="header-02" class="header text-center">
+				<img src="images/arrow-pc.png" class="img-fluid d-none d-md-inline-block" style="position:absolute;transform:translate(-50%, -50%);">
 				<img src="images/header-02-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
 				<img src="images/header-02-mobile.jpg" class="img-fluid d-md-none">
+				<img src="images/arrow-pc.png" class="img-fluid d-none d-md-inline-block" style="position:absolute;transform:translate(-50%, -50%);">
 			</div>
 			<div id="header-03" class="header">
-				<img src="images/header-03-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
+				<img src="images/header-03-pc.png" class="img-fluid d-none d-md-block mx-auto">
 				<img src="images/header-03-mobile.png" class="img-fluid d-md-none" style="transform:translateY(calc(-32 / 769 * 100%));">
 			</div>
 		</section>
@@ -69,23 +81,86 @@
 		</section>
 
 		<section id="bonus" class="alt pb-md-4">
-			<!-- <h3 class="text-center my-0 mb-md-5 py-4 py-md-5 bg-gradient-danger text-white">豪華参加特典</h3> -->
 			<div>
 				<img src="images/bonus-title-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
 				<img src="images/bonus-title-mobile.jpg" class="img-fluid d-md-none">
 			</div>
 			<div class="container px-0">
-				<div class="bonus mb-4 my-md-4">
-					<img src="images/bonus-01-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
-					<img src="images/bonus-01-mobile.jpg" class="img-fluid d-md-none">
+				<div class="bonus my-md-4">
+					<div>
+						<img src="images/bonus-title-01-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
+						<img src="images/bonus-title-01-mobile.jpg" class="img-fluid d-md-none">
+					</div>
+					<div class="media p-4 bg-white flex-column flex-md-row align-items-center">
+						<img src="images/bonus-img-01-pc.jpg" class="img-fluid mr-md-4">
+						<div class="media-body pt-4 py-md-0">
+							<div class="row">
+								<div class="col">
+									<h5>第１章</h5>
+									<ul>
+										<li>最高のコンディションを獲得する睡眠術</li>
+										<li>睡眠時間は何時間がいいか？</li>
+										<li>短時間睡眠の弊害とは？</li>
+										<li>１０時間睡眠で集中力がアップ！</li>
+										<li>熟睡して疲れを取るための最重要ポイント</li>
+										<li>熟睡できる環境を作る方法</li>
+										<li>口で呼吸すると病気になる！鼻呼吸のススメ</li>
+										<li>アルコールは睡眠の質を落とす？</li>
+										<li>脳を活性化する仮眠のとり方</li>
+										<li>最高のコンディションを得るための唯一の方法</li>
+										<li>光とともに目覚める！</li>
+										<li>自力で目覚める方法</li>
+									</ul>
+								</div>
+								<div class="col">
+									<h5>第２章</h5>
+									<ul>
+										<li>最高のコンディションを獲得する食事術</li>
+										<li>炭水化物中毒を治すには、どうしたらいいか？</li>
+										<li>炭水化物中毒改善法その１体質を変える！</li>
+										<li>血糖値を安定させる食事術</li>
+										<li>空腹を感じたらどうすればいい？</li>
+										<li>「体温を上げろ」は間違い？</li>
+										<li>脂肪燃焼体質を獲得する方法</li>
+										<li>あなたは水と空気を食べている！</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row my-3">
+								<div class="col">
+									<p>※こちらのプレゼントはセミナーに参加されない場合には受け取る事はできませんので、ご注意ください。</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="bonus mb-4 my-md-4">
-					<img src="images/bonus-02-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
-					<img src="images/bonus-02-mobile.jpg" class="img-fluid d-md-none">
+				<div class="bonus my-4">
+					<div>
+						<img src="images/bonus-title-02-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
+						<img src="images/bonus-title-02-mobile.jpg" class="img-fluid d-md-none">
+					</div>
+					<div class="media p-4 bg-white flex-column flex-md-row align-items-center">
+						<img src="images/bonus-img-02-pc.jpg" class="img-fluid mr-md-4">
+						<div class="media-body pt-4 py-md-0">
+							<p>あなたの脳がどれくらい活かされており、どれくらいの成長余地があるのかを計測させて頂き、簡単なアドバイスをさせて頂きます。</p>
+							<p>３０秒ほど掛けて、簡単な質問に答えて頂く事で、健康力、集中力、記憶力、休息力、潜在意識活用度などを包括的に計測していきます。その後、簡易的なアドバイスを差し上げます。</p>
+							<p>※こちらのプレゼントはセミナーの申し込み（Line登録）後にすぐ受け取る事が可能です。</p>
+						</div>
+					</div>
 				</div>
-				<div class="bonus">
-					<img src="images/bonus-03-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
-					<img src="images/bonus-03-mobile.jpg" class="img-fluid d-md-none">
+				<div class="bonus my-4">
+					<div>
+						<img src="images/bonus-title-03-pc.jpg" class="img-fluid d-none d-md-block mx-auto">
+						<img src="images/bonus-title-03-mobile.jpg" class="img-fluid d-md-none">
+					</div>
+					<div class="media p-4 bg-white flex-column flex-md-row align-items-center">
+						<img src="images/bonus-img-03-pc.jpg" class="img-fluid mr-md-4">
+						<div class="media-body pt-4 py-md-0">
+							<p>家族が病気になった時に、どんな医者を選べば良いのか分からないという事があると思います。</p>
+							<p>運が悪いと、副作用が強い薬を勧められたり、なかなか症状が改善しないという事になったりします。そういった事を防ぐために、信頼できる医者を見極める３つのポイントを動画にてお伝えします。</p>
+							<p>※こちらのプレゼントはセミナーに参加されない場合には受け取る事はできませんので、ご注意ください。</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
